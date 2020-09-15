@@ -45,3 +45,9 @@
 Перезагружаем apache
 
     sudo service apache2 restart    
+
+## Редактируем файл php.ini для запуска консольных приложений
+Если нам нужно запускать консольные приложения, то сделаем те же настройки, но в файле
+/etc/php/X.X/cli/php.ini
+
+    sudo vi /etc/php/7.0/cli/php.ini
